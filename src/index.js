@@ -35,5 +35,5 @@ export default function(rgb) {
     s = delta / (2 - max - min);
   }
 
-  return([h, Math.floor(s * 100), Math.floor(l * 100)]);
+  return([h, Math.round(s * 100), Math.round(l * 100)]);
 }
