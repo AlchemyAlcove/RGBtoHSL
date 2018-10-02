@@ -2,9 +2,7 @@ module.exports = {
   "extends": "standard",
   "globals": {
     "document": true,
-    "window": true,
-    "FileReader": true,
-    "FormData": true
+    "window": true
   },
   "plugins": [
       "standard",

@@ -1,6 +1,6 @@
 {
   "name": "@alchemyalcove/rgb-to-hsl",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Convert rgb to hsl",
   "author": "Mike Hoffert",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "babel": "babel src --out-dir dist",
-    "lint": "eslint src",
+    "lint": "./node_modules/.bin/eslint src",
     "production": "npm run webpack && npm run babel && npm run uglify",
     "test": "jest",
     "uglify": "./node_modules/.bin/uglifyjs dist/index.js --compress --mangle -o dist/index.min.js",
