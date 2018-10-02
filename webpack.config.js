@@ -8,7 +8,7 @@ module.exports = (env, argv) => {
   return {
     mode: "production",
     entry: {
-      ether: ["./src/index.js"]
+      index: ["./src/index.js"]
     },
     module: {
       rules: [
