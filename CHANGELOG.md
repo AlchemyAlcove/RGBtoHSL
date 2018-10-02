@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+## V1.0.5
+- Update readme
+
 ## V1.0.4
 - UMD and minification support
 
